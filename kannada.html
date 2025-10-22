@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shrikant Vishwakarma | Vaidika Seve mattu Jyotishya</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans&display=swap" rel="stylesheet" />
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Srikanth Vishwakarma — Authentic Vedic rituals and personalised astrological guidance for rituals, muhurtha, and life ceremonies." />
+  <meta property="og:title" content="Srikanth Vishwakarma | Vedic Rituals & Astrology" />
+  <meta property="og:description" content="Authentic Vedic rituals and personalised astrological guidance for peace and prosperity." />
+  <meta property="og:image" content="https://yourdomain.com/path/to/og-image.jpg" />
+  <meta property="og:type" content="website" />
+
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Srikanth Vishwakarma",
+  "description":"Vedic rituals and astrology services",
+  "telephone":"+919999999999",
+  "url":"https://yourdomain.com"
+}
+</script>
+
+</head>
+
+<body class="bg-ivory text-maroon">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white bg-opacity-90 backdrop-blur-md z-50 shadow px-5 py-3 flex justify-between items-center">
+    <div class="text-2xl md:text-3xl font-bold tracking-tight text-maroon">ಶ್ರೀಕಾಂತ ವಿಶ್ವಕರ್ಮ</div>
+    <ul class="hidden md:flex space-x-8 font-medium uppercase text-sm tracking-wide">
+      <li><a href="#home" class="hover:text-saffron transition">ಮುಖಪುಟ</a></li>
+      <li><a href="#about" class="hover:text-saffron transition">ನಮ್ಮ ಬಗ್ಗೆ</a></li>
+      <li><a href="#services" class="hover:text-saffron transition">ಸೇವೆಗಳು</a></li>
+      <li><a href="#rituals" class="hover:text-saffron transition">ಪೂಜೆಗಳು</a></li>
+      <li><a href="#astrology" class="hover:text-saffron transition">ಜ್ಯೋತಿಷ್ಯ</a></li>
+      <li><a href="#contact" class="hover:text-saffron transition">ಸಂಪರ್ಕ</a></li>
+    </ul>
+
+    <!-- Language Switch -->
+    <div class="flex items-center space-x-2">
+      <a href="index.html" class="text-sm font-semibold text-maroon hover:text-saffron transition">EN</a>
+      <span class="text-gray-400">|</span>
+      <a href="kannada.html" class="text-sm font-semibold text-saffron">ಕ</a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menuToggle" aria-label="Toggle Menu" class="md:hidden">
+      <svg class="w-7 h-7 text-maroon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden fixed top-16 left-0 w-full bg-white bg-opacity-95 shadow-lg z-40">
+    <ul class="flex flex-col space-y-5 p-6 text-maroon uppercase font-semibold text-center">
+      <li><a href="#home" class="hover:text-saffron">ಮುಖಪುಟ</a></li>
+      <li><a href="#about" class="hover:text-saffron">ನಮ್ಮ ಬಗ್ಗೆ</a></li>
+      <li><a href="#services" class="hover:text-saffron">ಸೇವೆಗಳು</a></li>
+      <li><a href="#rituals" class="hover:text-saffron">ಪೂಜೆಗಳು</a></li>
+      <li><a href="#astrology" class="hover:text-saffron">ಜ್ಯೋತಿಷ್ಯ</a></li>
+      <li><a href="#contact" class="hover:text-saffron">ಸಂಪರ್ಕ</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section id="home" class="min-h-screen bg-cover bg-center flex items-center justify-center text-center px-4" style="background-image: url('https://images.unsplash.com/photo-1601050690597-1ef2cb6e1efb?auto=format&fit=crop&w=1470&q=80');">
+    <div data-aos="fade-up" class="bg-white bg-opacity-85 p-10 rounded-2xl shadow-2xl max-w-2xl">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight text-maroon">
+        ವೈದಿಕ ಜ್ಞಾನ ಮತ್ತು ಜೋತಿಷ್ಯದಿಂದ<br><span class="text-saffron">ನಿಮ್ಮ ಜೀವನಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ</span>
+      </h1>
+      <p class="text-gray-700 text-lg md:text-xl mb-8">
+        ಅಧಿಕೃತ ಆಧ್ಯಾತ್ಮಿಕ ಆಚರಣೆಗಳು ಮತ್ತು ಬ್ರಹ್ಮಾಂಡದ ಒಳನೋಟಗಳ ಮೂಲಕ ಶಾಂತಿ, ಸಮೃದ್ಧಿ ಮತ್ತು ಸ್ಪಷ್ಟತೆಯನ್ನು ಕಂಡುಕೊಳ್ಳಿ.
+      </p>
+      <a href="#rituals" class="bg-saffron text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition">ಪೂಜೆ ನೋಡಿ</a>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-right">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">ನಮ್ಮ ಬಗ್ಗೆ</h2>
+    <div class="flex flex-col md:flex-row items-center md:space-x-14">
+      <div class="md:w-1/2 text-gray-800 text-lg leading-relaxed space-y-5 text-justify">
+        <p>ಸಂಪ್ರದಾಯಗಳಲ್ಲಿ ಆಧಾರಗೊಂಡು ಪುರಾತನ ಶಾಸ್ತ್ರಗಳ ವೈದಿಕ ಮಾರ್ಗದರ್ಶನದೊಂದಿಗೆ, ನಮ್ಮ ಸೇವೆಗಳು ಪವಿತ್ರ ವಿಧಿಗಳನ್ನು ಜೀವನದ ಪ್ರತಿಯೊಂದು ಹಂತಕ್ಕೂ ಸಹಾನುಭೂತಿಪೂರ್ಣ ಮಾರ್ಗದರ್ಶನದೊಂದಿಗೆ ಸೇರ್ಪಡೆಯಾಗಿಸುತ್ತವೆ.</p>
+        <p>ವಂಶ ಪರಂಪರೆಯ ಅನುಭವದೊಂದಿಗೆ, ಶ್ರೀಕಾಂತ ವಿಶ್ವಕರ್ಮ ನಿಮ್ಮ ಅಗತ್ಯದ ಪ್ರಕಾರ ಪ್ರಾಮಾಣಿಕ ವೈಧಿಕ ವಿಧಿಗಳು, ಜ್ಯೋತಿಷ್ಯ ಸಲಹೆಗಳು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪರಿಹಾರಗಳನ್ನು ಒದಗಿಸುತ್ತಾರೆ.</p>
+      </div>
+      <figure class="md:w-1/3 mt-10 md:mt-0">
+        <img src="Mava.jpg" loading="lazy" alt="Purohit Photo — Srikanth Vishwakarma" class="rounded-full shadow-lg w-48 h-48 object-cover mx-auto md:mx-0"/>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 bg-gray-50" data-aos="fade-left">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">ನಮ್ಮ ಸೇವೆಗಳು</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div class="bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-saffron">ವಿವಾಹ ಮುಹೂರ್ತ</h3>
+        <p>ನಾವು ವಿವಾಹ ಸಮಯಗಳನ್ನು ಗಣನೆಮಾಡಿ, ನಿಮ್ಮ ಹೊಸ ಜೀವನದ ಪ್ರಯಾಣಕ್ಕೆ ಸೌಹಾರ್ದಭರಿತ ಮತ್ತು ಶುಭಾರಂಭವನ್ನು ಖಚಿತಪಡಿಸುತ್ತೇವೆ.</p>
+      </div>
+      <div class="bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-saffron">ಗೃಹಪ್ರವೇಶ</h3>
+        <p>ಹೊಸ ಮನೆಗೆ ದೇವರು ಮತ್ತು ದೇವತಗಳ ಅನುಗ್ರಹ ಸಿಗಲಿ ಎಂದು ಪೂಜೆ ಮತ್ತು ಹೊಮ ಮಾಡುತ್ತೇವೆ.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sanskrit Subhashita Section -->
+  <section class="py-16 px-6 bg-white text-center" data-aos="fade-up">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-semibold text-maroon mb-6">ಸಂಸ್ಕೃತ ಸುಭಾಷಿತ</h2>
+      <p class="text-xl italic text-saffron mb-4">
+        "ಆಯುಃ ಕರ್ಮ ಚ ವಿತ್ತಂಚ ವಿದ್ಯಾ ನಿಧನಮೇವ ಚ |<br/>
+        ಪಂಚೈತಾನಿ ಹಿ ಸೃಜ್ಯಂತೆ ಗರ್ಭಸ್ಥಸ್ಯೈವ ದೇಹಿನಃ॥"
+      </p>
+      <p class="text-gray-700 text-lg mb-3">
+        ಈ ಐದು ವಿಷಯಗಳು ಶಿಶು ತಾಯಿಯ ಗರ್ಭದಲ್ಲಿರುವಾಗಲೇ ನಿರ್ಧಾರವಾಗಿರುತ್ತದೆ.
+        ಹಿಂದಿನ ಜನ್ಮದಲ್ಲಿ ಮಾಡಿದ ಪಾಪ-ಪುಣ್ಯಗಳಿಗೆ ಅನುಗುಣವಾಗಿ ಈ ಜನ್ಮದಲ್ಲಿ ಬಡತನ, ಐಶ್ವರ್ಯ,
+        ರೋಗ, ಆರೋಗ್ಯ, ವಿದ್ಯೆ, ಆಯುಷ್ಯ ಇತ್ಯಾದಿ ನಿರ್ಧಾರವಾಗುತ್ತದೆ.
+      </p>
+      <p class="text-gray-700 text-lg">
+        ಈ ಸುಭಾಷಿತವು ಮಾನವನ ಜೀವನದ ಮೂಲಭೂತ ತತ್ತ್ವವನ್ನು ಸೊಗಸಾಗಿ ವಿವರಿಸುತ್ತದೆ — 
+        ಎಲ್ಲಾ ವಿಷಯಗಳು ದೇವರ ಚಿತ್ತದಿಂದಲೇ ನಡೆಯುತ್ತವೆ ಎಂಬ ಭಾವನೆ ನೀಡುತ್ತದೆ.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rituals -->
+  <section id="rituals" class="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-up">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">ವೈದಿಕ ಹೋಮ ಮತ್ತು ಪೂಜೆ</h2>
+
+    <div class="grid md:grid-cols-2 gap-10 text-gray-800 text-lg leading-relaxed">
+      <!-- Column 1 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-saffron mb-4">ಹೋಮಗಳು</h3>
+        <ul class="list-disc pl-6 space-y-2 columns-2 md:columns-1">
+          <li>ಗಣಪತಿ ಹೋಮ</li>
+          <li>ನವಗ್ರಹ ಹೋಮ</li>
+          <li>ವಾಸ್ತು ಹೋಮ</li>
+          <li>ದುರ್ಗಾ ಹೋಮ</li>
+          <li>ರುದ್ರ ಹೋಮ</li>
+          <li>ಮೃತ್ಯುಂಜಯ ಹೋಮ</li>
+          <li>ಮಹಾ ಚಂಡಿ ಹೋಮ</li>
+          <li>ಆಯುಷ್ಯ ಹೋಮ</li>
+          <li>ಮಹಾ ಸುದರ್ಶನ ಹೋಮ</li>
+          <li>ಮಹಾ ಮೃತ್ಯುಂಜಯ ಹೋಮ</li>
+          <li>ಅಭಯಂಕರ ಹೋಮ</li>
+          <li>ತ್ರಯಂಭಕ ಹೋಮ</li>
+          <li>ವಗ್ನಿಹೋಮ</li>
+          <li>ಶ್ರೀ ಗಾಯತ್ರಿ ಹೋಮ</li>
+          <li>ಮನೋ ವಾಂಚಿತ ಗಣಹೋಮ</li>
+          <li>ಶ್ರೀ ಲಲಿತ ಹೋಮ</li>
+          <li>ವಾಯು ಹೋಮ</li>
+          <li>ಗುಹ್ಯ ಕಾಳಿ ಹೋಮ</li>
+          <li>ಚಂಡಿಕೇಶ್ವರ ಹೋಮ</li>
+          <li>ವೈವಸ್ವತ ಹೋಮ</li>
+          <li>ತ್ವರಿತ ಹೋಮ</li>
+          <li>ಗರುಡ ಹೋಮ</li>
+          <li>ದನ್ವಂತ್ರಿ ಹೋಮ</li>
+          <li>ತ್ರಿಪುರದಲ ಹೋಮ</li>
+          <li>ಸೂರ್ಯ ನಾರಾಯಣ ಹೋಮ</li>
+          <li>ರಕ್ಷೆ ಗಣ ಹೋಮ</li>
+          <li>ಸಹಸ್ರ ಚಂದ್ರ ದರ್ಶನ ಶಾಂತಿ ಹೋಮ</li>
+          <li>ಭೀಮರಥ ಶಾಂತಿ</li>
+          <li>ಉಗ್ರ ರಥ ಶಾಂತಿ ಹೋಮ</li>
+          <li>ಷಷ್ಟಿಪೂರ್ತಿ ಶಾಂತಿ ಹೋಮ</li>
+          <li>ಕೂಷ್ಮಾಂಡ ಹೋಮ</li>
+          <li>ಗೋಮುಖಪ್ರಸವಶಾಂತಿ ಹೋಮ</li>
+          <li>ಸಂತಾನ ಗೋಪಾಲ ಹೋಮ</li>
+          <li>ಅಘೋರ ಹೋಮ</li>
+          <li>ನಾರಾಯಣ ಬಲಿ ಹೋಮ</li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div>
+        <h3 class="text-2xl font-semibold text-saffron mb-4">ಸಂಸ್ಕಾರ ಮತ್ತು ಪೂಜೆಗಳು</h3>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>ಸ್ವಸ್ತಿ ಪುಣ್ಯವಚನ</li>
+          <li>ಮದುವೆ</li>
+          <li>ನಾಮಕರಣ</li>
+          <li>ಕದಲೀ ವಿವಾಹ</li>
+          <li>ಕುಂಭ ವಿವಾಹ</li>
+          <li>ಉಪನಯನ</li>
+          <li>ಶ್ರೀ ಸತ್ಯನಾರಾಯಣಸ್ವಾಮಿ ಪೂಜೆ</li>
+          <li>ಗ್ರಹ ಪ್ರವೇಶ</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Astrology -->
+  <section id="astrology" class="py-20 px-6 bg-gray-50" data-aos="fade-up">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">ಜ್ಯೋತಿಷ್ಯ ಸೇವೆಗಳು</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      <div class="bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-saffron">ಜ್ಯೋತಿಷ್ಯ</h3>
+        <p>ಆರೋಗ್ಯ, ಸಂಬಂಧಗಳು ಮತ್ತು ಯಶಸ್ಸಿನ ಬಗ್ಗೆ ವ್ಯಕ್ತಿಗತ ಜ್ಯೋತಿಷ್ಯ ಸಲಹೆಗಳು ಪಡೆದಿರಿ</p>
+      </div>
+      <div class="bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-saffron">ಮುಹೂರ್ತ ನಿರ್ಣಯ</h3>
+        <p>ಜೀವನದ ಘಟನೆಗಳು, ಸಮಾರಂಭಗಳು ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಚಟುವಟಿಕೆಗಳಿಗೆ ಅತ್ಯಂತ ಮಂಗಳಕರ ಸಮಯಗಳನ್ನು ಕಂಡುಕೊಳ್ಳಿ.</p>
+      </div>
+    </div>
+        <!-- Testimonial -->
+    <section id="testimonial" class="py-20 px-6 bg-white" data-aos="fade-up">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">
+        Testimonials
+      </h2>
+
+      <div class="max-w-3xl mx-auto">
+        <figure class="testimonial-card">
+          <img src="testimonial.jpg" alt="Client Feedback" class="testimonial-image" />
+        </figure>
+      </div>
+    </section>
+  </section>
+
+<!-- ಸಂಪರ್ಕ -->
+<section id="contact" class="py-20 md:py-24 lg:py-28 px-6 bg-white" data-aos="fade-up">
+  <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-maroon">ಸಂಪರ್ಕ</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto items-center">
+    
+    <!-- Contact Details -->
+    <div class="text-gray-800 space-y-6 text-lg">
+      <p class="text-base md:text-lg text-gray-600">
+        ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ಕೆಳಗಿನ ಮಾರ್ಗಗಳನ್ನು ಬಳಸಿ.
+      </p>
+
+      <!-- Phone -->
+    <div data-aos="fade-up" data-aos-delay="100"
+      class="flex items-center space-x-4 bg-gray-50 hover:bg-saffron/10 p-4 rounded-xl transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-saffron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2 8.5A4.5 4.5 0 016.5 4h.264a2.5 2.5 0 012.397 1.736l.73 2.19a2.5 2.5 0 01-.57 2.39l-.773.773a15.05 15.05 0 006.36 6.36l.773-.773a2.5 2.5 0 012.39-.57l2.19.73A2.5 2.5 0 0120 17.236V17.5A4.5 4.5 0 0115.5 22h-1A17.5 17.5 0 012 8.5z" />
+        </svg>
+        <a href="tel:+918618379881" class="font-semibold text-maroon hover:text-saffron transition">
+          +91 86183 79881
+        </a>
+      </div>
+
+      <!-- WhatsApp -->
+    <div data-aos="fade-up" data-aos-delay="200"
+      class="flex items-center space-x-4 bg-gray-50 hover:bg-green-50 p-4 rounded-xl transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M20.52 3.48A11.94 11.94 0 0012 1C6.48 1 2 5.48 2 11c0 2.09.55 4.06 1.58 5.8L2 23l6.34-1.67A10.96 10.96 0 0012 21c6.52 0 11.83-5.31 11.83-11.83 0-3.17-1.26-6.17-3.31-8.21z" />
+        </svg>
+        <a href="https://wa.me/918618379881" target="_blank" class="font-semibold text-maroon hover:text-saffron transition">
+          ವಾಟ್ಸ್ಯಾಪ್‌ನಲ್ಲಿ ಮಾತನಾಡಿ
+        </a>
+      </div>
+
+      <!-- Instagram -->
+    <div data-aos="fade-up" data-aos-delay="300"
+      class="flex items-center space-x-4 bg-gray-50 hover:bg-pink-50 p-4 rounded-xl transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+          <circle cx="17.5" cy="6.5" r="0.5" />
+        </svg>
+        <a href="https://www.instagram.com/srikanthsmacharya?igsh=MXJzMHY2c2J2enhmbg==" target="_blank" class="font-semibold text-maroon hover:text-saffron transition">
+          ಇನ್‌ಸ್ಟಾಗ್ರಾಂನಲ್ಲಿ ಅನುಸರಿಸಿ
+        </a>
+      </div>
+
+      <!-- YouTube -->
+    <div data-aos="fade-up" data-aos-delay="400"
+      class="flex items-center space-x-4 bg-gray-50 hover:bg-red-50 p-4 rounded-xl transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M10 15l5.19-3L10 9v6zm12-3c0 1.47-.12 2.62-.27 3.55-.17 1.06-.73 1.91-1.6 2.45C19.09 18.7 16.78 19 12 19s-7.09-.3-8.13-.99c-.87-.54-1.43-1.39-1.6-2.45C2.12 14.62 2 13.47 2 12s.12-2.62.27-3.55c.17-1.06.73-1.91 1.6-2.45C4.91 5.3 7.22 5 12 5s7.09.3 8.13.99c.87.54 1.43 1.39 1.6 2.45.15.93.27 2.08.27 3.55z"/>
+        </svg>
+        <a href="http://www.youtube.com/@astrologersrikanthvishwaka443" target="_blank" class="font-semibold text-maroon hover:text-saffron transition">
+          ಯೂಟ್ಯೂಬ್‌ನಲ್ಲಿ ಚಂದಾದಾರರಾಗಿ
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-maroon text-white py-8 mt-16 text-center">
+    <p class="text-sm md:text-base tracking-wide">&copy; 2025 Srikant Vishwakarma Purohit & Astrology Services. ಎಲ್ಲ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 900, easing: 'ease-in-out', once: true });
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

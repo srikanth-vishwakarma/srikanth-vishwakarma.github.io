@@ -1,0 +1,178 @@
+/* === Base Styling === */
+body {
+  font-family: 'Poppins', 'Noto Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.bg-saffron { background-color: #ff9933; }
+.text-saffron { color: #ff9933; }
+.bg-maroon { background-color: #800000; }
+.text-maroon { color: #800000; }
+.bg-ivory { background-color: #fffaf2; }
+
+/* === Enhancements === */
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
+a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+a:hover {
+  transform: scale(1.03);
+}
+
+/* === Typography & Readability Enhancements === */
+
+/* Improve readability of long texts */
+p {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Give subhashita (Sanskrit verse) a more elegant look */
+.italic {
+  font-family: 'Noto Sans Devanagari', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.9;
+}
+
+/* For section titles and Sanskrit headings */
+h2 {
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+/* Make lists more breathable */
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* === Testimonial Section === */
+.testimonial-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem; /* rounded-xl look */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+/* Reduce visual clutter in 2-column homa list */
+.columns-2 li {
+  padding-right: 0.75rem;
+}
+
+/* Ensure good spacing for mobile screens */
+@media (max-width: 640px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  .italic {
+    font-size: 1.05rem;
+  }
+  ul {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* =========================================================
+   DESKTOP REFINEMENT BLOCK — Final Polish for 1024px+
+   ========================================================= */
+
+@media (min-width: 1024px) {
+  /* --- Global section spacing --- */
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  /* Hero section compensation for fixed navbar */
+  #home {
+    padding-top: 7rem;
+  }
+
+  /* Footer text slightly larger on desktops */
+  footer p {
+    font-size: 1.125rem; /* 18px */
+  }
+
+  /* --- Navigation refinement --- */
+  nav {
+    padding: 1.2rem 3rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Adds soft shadow and solid background when scrolling */
+  nav.scrolled {
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* --- Headings and text contrast --- */
+  h1, h2, h3 {
+    letter-spacing: 0.5px;
+  }
+
+  .text-gray-700 {
+    color: #4a4a4a;
+  }
+
+  /* --- Testimonial scaling --- */
+  .testimonial-card {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  #testimonial {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* --- Link and icon hover feedback (applies to all screens) --- */
+a:hover {
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+svg:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* --- Optional: faint gradient divider (use between sections if desired) --- */
+.section-divider {
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(228, 155, 15, 0.3), transparent);
+  margin: 4rem 0;
+}
+
+/* --- Optional: parallax hero background (desktop only) --- */
+@media (min-width: 1024px) {
+  #home {
+    background-attachment: fixed;
+    background-position: center top;
+  }
+}
